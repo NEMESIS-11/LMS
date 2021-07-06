@@ -1,4 +1,6 @@
-import React from 'react';
+import React,{useEffect} from 'react';
+import gsap from 'gsap';
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import '../MainBody.css'
 import undraw_typewriter_i8xd from "../images/undraw_typewriter_i8xd.svg";
 import undraw_respond_8wjt from "../images/undraw_respond_8wjt.svg";
@@ -9,6 +11,85 @@ import undraw_Post_re_mtr4 from "../images/undraw_Post_re_mtr4.svg";
 import undraw_community_8nwl from "../images/undraw_community_8nwl.svg";
 
 function MainBody() {
+    gsap.registerPlugin(ScrollTrigger); 
+
+    useEffect( () => {
+
+        gsap.from('.hero-text', {
+            opacity: 0, 
+            duration: 1.5, 
+            y: -50
+        })
+        
+        gsap.from('.boxes', {
+            scrollTrigger: 'boxes',
+            opacity: 0,
+            y: 50,
+            duration: 1,
+            scale: 0.9        
+        })
+        
+        gsap.from('.midwayTextContainer h2', {
+            scrollTrigger: '.midwayTextContainer',
+            opacity: 0,
+            y: 80,
+            duration: 1,
+        })
+        
+        gsap.from('.midwayTextContainer h4', {
+            scrollTrigger: '.midwayTextContainer',
+            opacity: 0,
+            y: 50,
+            duration: 1.2,
+        })
+        
+        gsap.from('.firstBox', {
+            scrollTrigger: '.firstBox',
+            opacity: 0,
+            x: -100,
+            duration: 0.7,
+            scale: 0.9,
+            stagger: 1
+        })
+        
+        gsap.from('.secondBox', {
+            scrollTrigger: '.secondBox',
+            opacity: 0,
+            x: 100,
+            duration: 0.7,
+            scale: 0.9,
+            stagger: 1
+        })
+
+        gsap.from('.thirdBox', {
+            scrollTrigger: '.thirdBox',
+            opacity: 0,
+            x: -100,
+            duration: 0.7,
+            scale: 0.9,
+            stagger: 1
+        })
+        
+        gsap.from('.fourthBox', {
+            scrollTrigger: '.fourthBox',
+            opacity: 0,
+            x: 100,
+            duration: 0.7,
+            scale: 0.9,
+            stagger: 1
+        })
+        
+        gsap.from('.GoogleForm', {
+            scrollTrigger: '.GoogleForm',
+            opacity: 0, 
+            duration: 0.7, 
+            y: 50
+        })
+        
+        
+        
+    },[]);
+
     return (
         <div>
             <div class="totalHero">
@@ -76,7 +157,7 @@ function MainBody() {
 
 
             <div class="meritsSection">
-            <div class="meritsContainer odd">
+            <div class="meritsContainer odd firstBox">
                 <div class="meritsText">
                 <div class="meritsTextContainer">
                     <h3>Real World issues</h3>
@@ -92,7 +173,7 @@ function MainBody() {
             </div>
 
             <div class="meritsSection">
-            <div class="meritsContainer even">
+            <div class="meritsContainer even secondBox">
                 <div class="meritsText">
                 <div class="meritsTextContainer"><h3>learn from the community</h3>
                     <p>Skilly acts as a medium to generate real and constructive feedback on your work to help you identify mistakes and improve as a writer</p>
@@ -107,7 +188,7 @@ function MainBody() {
             </div>
 
             <div class="meritsSection">
-            <div class="meritsContainer odd">
+            <div class="meritsContainer odd thirdBox">
                 <div class="meritsText">
                 <div class="meritsTextContainer">
                     <h3>read fellow writers work</h3>
@@ -123,7 +204,7 @@ function MainBody() {
             </div>
 
             <div class="meritsSection">
-            <div class="meritsContainer even">
+            <div class="meritsContainer even fourthBox">
                 <div class="meritsText">
                 <div class="meritsTextContainer"><h3>Give back to the community</h3>
                     <p>Skillly allows you to help fellow artists learn and grow and hence give back to the community</p>
@@ -144,47 +225,13 @@ function MainBody() {
             
 
             <div className="homepageFooter">
-                    <div className="footerMenu">
-                    <div className="col_1">
-                        <div className="title">
-                            Company  
-                        </div>  
-                        <ul>
-                            <li>About Us</li>
-                            <li>Contacts</li>
-                            <li>Home Page</li>
-                            <li>Out Of Words</li>
-                        </ul>
-                    </div>
-                    <div className="col_2">
-                        <div className="title">
-                            Help & Support 
-                        </div>  
-                        <ul>
-                            <li>Support Center</li>
-                            <li>FAQ</li>
-                            <li>Call Center</li>
-                            <li>Terms & Conditions</li>
-                        </ul>
-                    </div>
-                    <div className="col_3">
-                        <div className="title">
-                            Services  
-                        </div>  
-                        <ul>
-                            <li>Fashion Magazine</li>
-                            <li>Web Store</li>
-                            <li>Deliveries</li>
-                            <li>Shoes Related Term</li>
-                        </ul>
-                    </div>
-                    </div>
-
+                <div className="footerMenu">
                     <div className="socialMedia">
                         <p>Copyright February 2021 © EDGE.</p>
                     </div>
                 </div>
             </div>
+        </div>
     );
 }
 
