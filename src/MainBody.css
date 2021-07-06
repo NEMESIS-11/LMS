@@ -1,3 +1,4 @@
+
 *{
 	margin: 0;
 	padding: 0;
@@ -12,24 +13,6 @@ html {
 body{
   color: #545454;
   overflow-x: hidden;
-}
-
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-
-::-webkit-scrollbar-track {
-  background: #ffffff; 
-}
- 
-::-webkit-scrollbar-thumb {
-  background: rgb(173, 173, 173); 
-  border-radius: 15px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: rgb(119, 119, 119); 
 }
 
 a {
@@ -426,7 +409,7 @@ a {
 
 
   .totalHero .hero-text h2 {
-    font-size: 2.2em;
+    font-size: 2.1em;
   }
   
   
@@ -459,7 +442,7 @@ a {
   }
 
   .midwayContainer .midwayTextContainer h2 {
-    font-size: 40px;
+    font-size: 30px;
   } 
   
 
