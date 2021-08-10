@@ -22,7 +22,7 @@ function MainBody() {
         })
         
         gsap.from('.boxes', {
-            scrollTrigger: 'boxes',
+            scrollTrigger: '.boxes',
             opacity: 0,
             y: 50,
             duration: 1,
