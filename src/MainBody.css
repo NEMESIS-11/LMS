@@ -319,28 +319,56 @@ a {
   .GoogleForm{
     width: 100vw;
     margin-top: 100px;
-    height: 800px;
+    height: 950px;
   }
 
- .homepageFooter {
-  background-color:rgb(212, 212, 212);
-  padding: 50px 200px;
-  font-size: 15px;
-  font-weight: 500;
-}
 
- .footerMenu{
- width: 100%;
-}
-
-
-.socialMedia{
-  text-align: center;
-}
-
-.socialMedia{
- color: #8b8b8b;
-}
+  .homepageFooter {
+    background-color:rgb(212, 212, 212);
+    padding: 50px 200px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .FooterContainer{
+    display: grid;
+    margin-bottom: 25px;
+    place-content: center;
+  }
+  
+  .FooterLogo{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 600;
+  }
+  
+  .FooterQuote {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 10px 0;
+  }
+  
+  .socials{
+    margin: auto;
+  }
+  
+  
+  .socials a{
+    margin: 10px 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: rgb(66, 66, 66);
+    text-decoration: none;
+  }
+  
+  .socials a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
 
 @media (max-width: 1040px){
   html {
@@ -524,5 +552,4 @@ a {
     font-size: 12px;
     font-weight: 500;
   }
-
 }
