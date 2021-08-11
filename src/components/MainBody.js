@@ -230,7 +230,7 @@ function MainBody() {
                             SKILLLY.
                         </h1>
                         <h4 className="FooterQuote">
-//                             Made with ❤ in New Delhi - India
+                            
                         </h4>
                         <div className="socials">
                             <a className="SocialLinks" href="http://www.google.com">
