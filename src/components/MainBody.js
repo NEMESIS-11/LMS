@@ -150,8 +150,8 @@ function MainBody() {
 
             <div class="midwayContainer">
                 <div class="midwayTextContainer">
-                <h2><p>Create your portfolio and grow with the community</p></h2>
-                <h4>Skillly molds you as a writer and gives you the opportunity to assist, learn and grow with fellow artists.</h4>
+                <h2><p>Everyone has talent, and we have the network to refine it!</p></h2>
+                <h4>Skillly molds you as a writer and gives you the opportunity to assist, learn and grow with the fellow artists.</h4>
                 </div>
             </div>
 
@@ -161,7 +161,7 @@ function MainBody() {
                 <div class="meritsText">
                 <div class="meritsTextContainer">
                     <h3>Real World issues</h3>
-                    <p>The writing prompts are based on real-world issues which helps you in building your portfolio.</p>
+                    <p>The writing prompts offered are based on prevalent themes which in turn will assist you in curating an contemporary portfolio.</p>
                 </div>
                 </div>
                 <div class="meritsSvgs">
@@ -176,7 +176,7 @@ function MainBody() {
             <div class="meritsContainer even secondBox">
                 <div class="meritsText">
                 <div className="meritsTextContainer"><h3>Learn From The Community</h3>
-                                <p>The constructive feedback that the community offers helps you in identifying your mistakes and improve as a writer.</p>
+                                <p>The community helps you in identifying your weaknesses and improve as a writer.</p>
                             </div>
                 </div>
                 <div class="meritsSvgs">
@@ -191,8 +191,8 @@ function MainBody() {
             <div class="meritsContainer odd thirdBox">
                 <div class="meritsText">
                 <div className="meritsTextContainer">
-                                <h3>Read Fellow Writer's Work</h3>
-                                <p>Read the work of people who are better than you to get inspired and learn.</p>
+                                <h3>Get inspired by the community</h3>
+                                <p>Take inspiration from the work of people from a diverse background and learn from them.</p>
                             </div>
                 </div>
                 <div class="meritsSvgs">
@@ -230,7 +230,7 @@ function MainBody() {
                             SKILLLY.
                         </h1>
                         <h4 className="FooterQuote">
-                            Made with ❤ in New Delhi - India
+//                             Made with ❤ in New Delhi - India
                         </h4>
                         <div className="socials">
                             <a className="SocialLinks" href="http://www.google.com">
