@@ -192,7 +192,7 @@ function MainBody() {
                 <div class="meritsText">
                 <div className="meritsTextContainer">
                                 <h3>Get inspired by the community</h3>
-                                <p>Take inspiration from the work of people from a diverse background and learn from them.</p>
+                                <p>Take inspiration from the work of people from diverse backgrounds and learn from them.</p>
                             </div>
                 </div>
                 <div class="meritsSvgs">
