@@ -96,7 +96,7 @@ function MainBody() {
 
             <div class="navbar">
             <div class="container flex">
-            <h1 class="logo">SkillLy</h1>
+            <h1 class="logo">LMS</h1>
             <nav>
                 <ul>
                     <li><a href="#Googlyform">Pre Register</a></li>
@@ -218,7 +218,7 @@ function MainBody() {
             </div>
             </div>
 
-            <iframe title="GoogleForm" id="Googlyform" className="GoogleForm" src="https://docs.google.com/forms/d/e/1FAIpQLSed0PyNxhQtjRQxhj3vX-mvi05GtwTH5IEjLxyY_usCrsrY9A/viewform?embedded=true" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            {/* <iframe title="GoogleForm" id="Googlyform" className="GoogleForm" src="https://docs.google.com/forms/d/e/1FAIpQLSed0PyNxhQtjRQxhj3vX-mvi05GtwTH5IEjLxyY_usCrsrY9A/viewform?embedded=true" width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
 
 
 
@@ -227,22 +227,11 @@ function MainBody() {
             <div className="homepageFooter">
                     <div className="FooterContainer">
                         <h1 className="FooterLogo">
-                            SKILLLY.
+                            LMS.
                         </h1>
                         <h4 className="FooterQuote">
                             
                         </h4>
-                        <div className="socials">
-                            <a className="SocialLinks" href="http://www.google.com">
-                                    Facebook
-                            </a >
-                            <a className="SocialLinks" href="http://www.google.com">
-                                    Instagram
-                            </a >
-                            <a className="SocialLinks" href="http://www.google.com">
-                                    LinkedIN
-                            </a >
-                        </div>
                     </div>
                 </div>
         </div>
