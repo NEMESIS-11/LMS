@@ -99,7 +99,7 @@ function MainBody() {
             <h1 class="logo">LMS</h1>
             <nav>
                 <ul>
-                    <li><a href="#Googlyform">Pre Register</a></li>
+                    <li><a href="C:\Users\Parv Virmani\Desktop\dashboard-master\code\dashoard.html">Sign In</a></li>
                     
                 </ul>
             </nav>
