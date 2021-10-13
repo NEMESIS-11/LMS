@@ -96,7 +96,7 @@ function MainBody() {
 
             <div class="navbar">
             <div class="container flex">
-            <h1 class="logo">LMS</h1>
+            <h1 class="logo">LibMS</h1>
             <nav>
                 <ul>
                     <li><a href="C:\Users\Parv Virmani\Desktop\dashboard-master\code\dashoard.html">Sign In</a></li>
@@ -227,7 +227,7 @@ function MainBody() {
             <div className="homepageFooter">
                     <div className="FooterContainer">
                         <h1 className="FooterLogo">
-                            LMS.
+                            LibMS.
                         </h1>
                         <h4 className="FooterQuote">
                             
